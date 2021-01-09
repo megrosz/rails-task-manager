@@ -5,7 +5,7 @@
   <div style="background-color: #df88ea; padding:20px">
   <h1><%= task.title %></h1>
   <%= link_to "Show details", task_path(task.id) %>
-  <p> <input type=“checkbox”> <% task.completed %> done</p>
+  <p><input type=“checkbox”><% task.completed %>done</p>
   </div>
   <% end %>
 </ul>
