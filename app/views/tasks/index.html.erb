@@ -1,15 +1,20 @@
 <h1>to-do</h1>
 
+
+
+<div class="flex-container">
+
 <ul>
   <% @tasks.each do |task| %>
-  <div style="background-color: #df88ea; padding:20px">
+  <div class="card">
   <h1><%= task.title %></h1>
   <%= link_to "Show details", task_path(task.id) %>
-  <p><input type=“checkbox”><% task.completed %>done</p>
+<!--   <p><input type=“checkbox”> <% task.completed %> done </p> -->
   </div>
   <% end %>
 </ul>
 
+  </div>
 
 
 <%= link_to 'New Task',  tasks_new_path %>

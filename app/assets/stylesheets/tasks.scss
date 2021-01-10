@@ -1,3 +1,40 @@
 // Place all the styles related to the tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+#tasks {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.card {
+  background-color: purple;
+  font-family: 'Titillium Web', sans-serif;
+  width: 400px;
+  height: 200px;
+  font-size: 15px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 5px 5px lightgrey;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+// .flex-container {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+
+.flexbox {
+  width: 800px;
+  height: 100%;
+  display: flex;
+}
+
+.container {
+
+
+}
